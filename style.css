@@ -151,7 +151,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 90vh;
+  height: 97vh;
   margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -316,7 +316,7 @@ section {
 }
 
 .details-container {
-  padding: 1rem;
+  padding: 1.5rem;
   flex: 1;
   background: white;
   border-radius: 1rem;
@@ -353,9 +353,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
-.article-container {
+/* .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
@@ -369,7 +370,27 @@ article {
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
+} */
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
 }
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.icon {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 
 article .icon {
   cursor: default;
@@ -408,7 +429,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
 }
 
 .contact-info-upper-container {
