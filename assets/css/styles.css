@@ -11,19 +11,19 @@
   --font-bold: 700;
 
   /*===== Colors =====*/
-  /* --first-color: #CC4B2C;
+  --first-color: #333533;
   --first-color-dark: #662616;
-  --first-color-darken: #290F09;
-  --text-color: #54423D;
+  --first-color-darken: #f5cb5c;
+  --text-color: #242423;
   --first-color-light: #EAE7E6;
-  --first-color-lighten: #FFFAFA; */
+  --first-color-lighten: #FFFAFA;
 
-  --first-color: #4f6339;
+  /* --first-color: #4f6339;
   --first-color-dark: #493932;
   --first-color-darken: #2e303e;
   --text-color: #54423D;
   --first-color-light: #Ece8d3;
-  --first-color-lighten: #FFFAFA;
+  --first-color-lighten: #FFFAFA; */
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
