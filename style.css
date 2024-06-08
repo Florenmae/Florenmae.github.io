@@ -158,15 +158,23 @@ section {
 }
 
 .section-container {
-  display: flex;
+  display: relative;
 }
 
-/* PROFILE SECTION */
+.profile-picture {
+  display: block;
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+  position: relative;
+  top: -40px; 
+  left: -40px; 
+}
+
 
 #profile {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   height: 90vh;
 }
 
